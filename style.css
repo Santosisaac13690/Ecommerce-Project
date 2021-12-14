@@ -352,6 +352,7 @@ section a {
   flex-direction: row;
   align-items: center;
   align-content: center;
+  margin-bottom: 20px;
 }
 
 .row1Items {
@@ -359,7 +360,7 @@ section a {
   flex-direction: column;
   align-items: center;
   padding: 15px;
-  border: .1px solid darkslategray;
+
 }
 
 .row1Items img{
