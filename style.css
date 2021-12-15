@@ -35,12 +35,12 @@ nav li a {
 }
   
 nav .title{
-  padding-right: 450px;
+  padding-right: 20vw;
   font-size: 50px;
 }
 
 nav .cart{
-    padding-left: 450px;
+    padding-left: 20vw;
 }
 
   
@@ -139,8 +139,8 @@ footer ul li a:hover {
   border-radius: 7px;
   padding: 12px 25px;
   background: burlywood;
-  margin-left: 650px;
-  margin-right: 650px;
+  margin-left: 45vw;
+  margin-right: 45vw;
   font-weight: 400;
 }
   
@@ -272,6 +272,7 @@ section a {
   flex-direction: row;
   align-items: center;
   align-content: center;
+  flex-wrap: wrap;
 }
 
 .bestItems:hover {
@@ -353,6 +354,7 @@ section a {
   align-items: center;
   align-content: center;
   margin-bottom: 20px;
+  flex-wrap:wrap;
 }
 
 .row1Items {
@@ -378,6 +380,7 @@ section a {
 
 .row1Items:hover .productBack{
   display: block;
+  opacity: 70%;
 }
 
 .row1Items p {
@@ -505,4 +508,72 @@ section a {
 
 label {
   color: darkslategray;
+}
+
+/* cart css*/
+
+.cartPage {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  margin: 160px 60px 100px 60px;
+}
+
+.cartPage h2 {
+  margin: 20px;
+  color: darkslategray;
+  font-size: 60px;
+}
+
+.cShopping {
+  text-align: center;
+  color: #fff;
+  text-decoration: none;
+  border: solid 0px #fff;
+  border-radius: 7px;
+  padding: 12px 25px;
+  background: burlywood;
+  margin: 0px auto 0px auto;
+  font-size: small;
+  font-weight: 700;
+}
+
+.cartPage a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact {
+    display: none;
+  }
+
+  .contact {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .contactInfo {
+    width: 450px;
+  }
+}
+
+
+@media only screen and (max-width: 730px) {
+  nav .title{
+    padding-right: 4vw;
+  }
+  
+  nav .cart{
+      padding-left: 4vw;
+  }
+
+}
+
+@media only screen and (max-width: 1149px) {
+  .button {
+    margin-left: 40vw;
+    margin-right: 40vw;
+  }
 }
