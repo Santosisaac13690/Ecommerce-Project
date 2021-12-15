@@ -380,7 +380,13 @@ section a {
 
 .row1Items:hover .productBack{
   display: block;
+
+}
+
+.row1Items:hover {
   opacity: 70%;
+  cursor: pointer;
+  transition: 1s;
 }
 
 .row1Items p {
