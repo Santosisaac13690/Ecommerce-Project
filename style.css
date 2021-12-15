@@ -277,7 +277,7 @@ section a {
 
 .bestItems:hover {
   cursor: pointer;
-  opacity: 80%;
+  opacity: 50%;
   transition: 1s;
 }
 
@@ -385,7 +385,7 @@ section a {
 
 .row1Items:hover {
   cursor: pointer;
-  opacity: 80%;
+  opacity: 50%;
   transition: 1s;
 }
 
