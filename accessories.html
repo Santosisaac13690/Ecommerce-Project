@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>"STAY QUIET" Shop</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <link href='https://fonts.googleapis.com/css?family=Sora' rel='stylesheet'>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap" rel="stylesheet">
+    <script type="text/javascript">
+        function goToNewPage()
+        {
+            var url = document.getElementById('list').value;
+            if(url != 'none') {
+                window.location = url;
+            }
+        }
+    </script>
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li class="title"><a href="./index.html"><i class="fas fa-microphone-alt-slash"></i></a></li>
+        <li><a href="./index.html" class="hover"><b>"HOME"</b></a></li>
+        <li><a href="./products.html" class="hover"><b>"APPAREL"</b></a></li>
+        <li><a href="./contact.html" class="hover"><b>"CONTACT"</b></a></li>
+        <li><a href="./cart.html" class="cart"><i class="fas fa-shopping-cart"></i></a></li>
+      </ul>
+    </nav>
+
+    <main>
+      <hr>
+      <div class="apparelSort">
+        <p>16 results</p>
+        <form>
+          <label for="productType">Sort By:</label>
+          <select name="list" id="list" accesskey="target">
+            <option value="./products.html">Collections</option>
+            <option value="./hoodies.html">Hoodies</option>
+            <option value="./sweaters.html">Sweaters</option>
+            <option value="./shirts.html">Shirts</option>
+            <option value="./accessories.html">Accessories</option>
+            <option value="./lowToHigh.html">Low to High</option>
+            <option value="./highToLow.html">High to Low</option>
+          </select>
+          <input type=button value="Go" onclick="goToNewPage()" />
+        </form>
+      </div>
+
+      <div class="row1">
+        <div class="row1Items"> 
+          <img src="images/fronttote1.jpg" alt="Hoodie1" class="productFront">
+          <img src="images/backtote1.jpg" alt="HoodieBack1" class="productBack">
+          <p>NOTHING CHANGES ~ TOTE BAG</p>
+          <p>$20.00</p>
+        </div>
+
+        <div class="row1Items"> 
+          <img src="images/backPack2.jpg" alt="Sweater1">
+          <p>SOLITUDE ~ BOOKBAG</p>
+          <p>$30.00</p>
+        </div>
+
+        <div class="row1Items"> 
+          <img src="images/tHat3.jpg" alt="Shirt1">
+          <p>WATO? ~ TRUCKER HAT</p>
+          <p>$20.00</p>
+        </div>
+
+        <div class="row1Items"> 
+          <img src="images/mug4.jpg" alt="Hoodie1">
+          <p>ADITLOR ~ MUG</p>
+          <p>$15.00</p>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="logo">
+        <a href="./accessories.html"><i class="fas fa-microphone-alt-slash"></i></a>
+      </div>
+        <ul>
+          <li><a href="https://www.instagram.com/santos_j_isaac/" class="instagram" target="_blank" rel="noopener" aria-label="instagram"><i class="fab fa-instagram"></i></a></li>
+          <li><a href="https://www.linkedin.com/in/isaac-santos-alvarado/" target="_blank" class="linkedin" rel="noopener" aria-label="linkedin"><i class="fab fa-linkedin"></i></a></li>
+          <li><a href="https://www.facebook.com/santosjisaac/" target="_blank" class="facebook" rel="noopener" aria-label="facebook"><i class="fab fa-facebook-square"></i></a></li>
+          <li><a href="mailto:santosisaac13690@gmail.com" target="_blank" class="email" rel="noopener" aria-label="email"><i class="fas fa-envelope-square"></i></a></li>
+        </ul>
+        <p class="copyright">Copyright &copy; 2021, "STAY QUIET"</p>
+      </footer>
+
+      <script src="https://kit.fontawesome.com/cea5c49151.js" crossorigin="anonymous"></script>
+  </body>
+</html>
