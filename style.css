@@ -236,7 +236,7 @@ section a {
 }
 
 .bestItems img{
-  width: 320px;
+  width: 338px;
   height: auto;
 }
 
@@ -263,7 +263,9 @@ section a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0px 10px 0px 10px;
+
 }
 
 .nothingChanges {
@@ -355,6 +357,7 @@ form input[type="button"]{
   margin: 5px;
   border: none;
   cursor: pointer;
+  box-shadow: 2px 2px 2px darkslategray;
 }
 
 .row1 {
@@ -371,12 +374,13 @@ form input[type="button"]{
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding: 15px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  margin: 0px 10px 0px 10px;
 
 }
 
 .row1Items img{
-  width: 328px;
+  width: 338px;
   height: auto;
 }
 
