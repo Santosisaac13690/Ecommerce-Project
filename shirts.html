@@ -11,14 +11,14 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap" rel="stylesheet">
-    <script type="text/javascript">
-        function goToNewPage()
-        {
-            var url = document.getElementById('list').value;
-            if(url != 'none') {
-                window.location = url;
-            }
-        }
+    <script>
+      function goToNewPage()
+      {
+          var url = document.getElementById('list').value;
+          if(url != 'none') {
+              window.location = url;
+          }
+      }
     </script>
   </head>
 
@@ -38,8 +38,8 @@
       <div class="apparelSort">
         <p>16 results</p>
         <form>
-          <label for="productType">Sort By:</label>
-          <select name="list" id="list" accesskey="target">
+          <label>Sort By:</label>
+          <select name="list" id="list" accesskey="t">
             <option value="./products.html">Collections</option>
             <option value="./hoodies.html">Hoodies</option>
             <option value="./sweaters.html">Sweaters</option>
