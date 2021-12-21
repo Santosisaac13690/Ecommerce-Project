@@ -11,7 +11,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Atomic+Age&display=swap" rel="stylesheet">
-    <script type="text/javascript">
+    <script>
       function goToNewPage()
       {
           var url = document.getElementById('list').value;
@@ -38,7 +38,7 @@
       <div class="apparelSort">
         <p>16 results</p>
         <form>
-          <label for="productType">Sort By:</label>
+          <label>Sort By:</label>
           <select name="list" id="list" accesskey="target">
             <option value="./products.html">Collections</option>
             <option value="./hoodies.html">Hoodies</option>
@@ -47,8 +47,8 @@
             <option value="./accessories.html">Accessories</option>
             <option value="./lowToHigh.html">Low to High</option>
             <option value="./highToLow.html">High to Low</option>
-            <input type=button value="Go" onclick="goToNewPage()" />
           </select>
+          <input type=button value="Go" onclick="goToNewPage()" />
         </form>
       </div>
 
